@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Pass Form</title>
+</head>
+<body><center><img src="tsrtc.png" alt=""></center>
+<fieldset><legend>Applicant Details</legend>
+    <form action="" method="get" >
+<table>
+    <tr><td><label for="name">Name <sup style="color: red;">*</sup>:</label></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    
+    <td>
+    <input type="text" name="name" id="name" required autocomplete="off"></td>
+  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><label for="Father's Name" >Father's/Guardian Name <sup style="color: red;">*</sup>: </label></td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+    <td><input type="text" name="Father's Name" id="Father's Name" required autocomplete="off">
+</td></tr>
+<tr>
+    <td><label for="DOB">Date of Birth <sup style="color: red;">*</sup>:</label></td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><input type="date" name="Date of Birth" id="DOB"></td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><label for="gender">Gender <span style="color: red;">*</span>:</label></td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td > 
+    <label for="male">male</label><input required type="radio" id="male" name="gender" value="male">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female" required></td>
+</tr>
+<tr>
+    <td>
+        <label for="aadhar" >Aadhar No <sup style="color: red;">*</sup>:</label></td>
+              <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+       <td><input maxlength="12" minlength="12" type="number" name="aadhar" id="aadhar" required>
+    </td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+    <td>
+        <label for="whatsapp no">whatsapp no <sup style="color: red;">*</sup>:</label></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><input type="number" id="whatsapp" name="whatsapp no" maxlength="10" minlength="10" required></td>
+</tr>
+<tr>
+    <td>
+        <label for="email">Email <sup style="color: red;">*</sup>:</label>
+    </td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><input type="email" name="email" id="email" required></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><label for="photo">Photo <sup style="color: red;">*</sup>:</label></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+<td> <input type="file" name="Photo" id="photo" required ></td>
+</tr>
+</table></fieldset>
+<fieldset>
+    <legend>Residential Details</legend>
+    <table>
+        <tr><td><label for="Applicant Address">Applicant Address <sup style="color: red;">*</sup></label></td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><input type="text" id="Applicant Address" name="Applicant Address" required></td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td> <label for="District">District <sup style="color: red;">*</sup></label></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td><select name="District" id="District" required>
+                <option value="Siddipet">Siddipet</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Karimnagar">Karimnagar</option>
+                <option value="Warangal">Warangal</option>
+            </select></td>
+    </tr>
+    <tr>
+        <td><label for="mandal">Mandal <sup style="color: red;">*</sup>:</label></td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td><select name="Mandal" id="Mandal">
+            <option value="Siddipet">Siddipet</option>
+            <option value="Nampally">Nampally</option>
+            <option value="Kothpally">Kothpally</option>
+            <option value="Parvathigiri">Parvathigiri</option>
+
+        </select></td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+        <td><label for="Village">Village <sup style="color: red;">*</sup>:</label></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><select name="Village" id="Village">
+    <option value="Mittapally">Mittapally</option>
+        <option value="ponnal">Ponnal</option>
+
+</select></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><label for="pincode">pincode <sup style="color: red;">*</sup>:</label></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+<td><input type="number" value="pincode" id="pincode" name="pincode"></td>
+
+
+    </tr>
+
+    </table>
+</fieldset>
+<fieldset>
+    <legend>Passtype</legend>
+    <table>
+        <tr>
+            <td><label for="City">City: <sup style="color: red;">*</sup></label></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+<td><select name="city" id="city">
+<option value="Hyderabad">Hyderabad</option>
+<option value="secundrabad">secundrabad</option></select></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+<td>
+    <label for="passtype">passtype: <sup style="color: red;">*</sup></label></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+    <select name="passtype" id="passtype">
+        <option value="student">student</option>
+        <option value="ordinary">ordinary</option>
+        <option value="metro express">metro express</option>
+    </select>
+</td>
+        </tr>
+       
+    </table>
+</fieldset>
+ <fieldset>
+            <legend>mode of payment and pass collection</legend>
+            <table>
+                <tr>
+                    <td><label for="payment mode">payment mode <sup style="color: red;">*</sup>:</label></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><select name="payment mode" id="mode">
+    <option value="card">card</option>
+    <option value="cash">cash</option>
+</select></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+<td><label for="delivery mode">Delivery mode <sup style="color: red;">*</sup></label></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td><select name="delivery mode" id="delivery mode">
+<option value="online">online</option>
+<option value="office">office</option></select></td>
+                </tr>
+                <tr>
+                    <td><label for="center">Center at which you want to collect pass: <sup style="color: red;">*</sup></label>
+    
+                    </td>
+
+                    <td><select name="center" id="center">
+                        <option value="jeedimetla">jeedimetla</option>
+                        <option value="kphb">kphb</option>
+                    </select></td>
+                </tr>
+            </table>
+        </fieldset><center>
+        <img src="captcha.png" alt="" width="200"><br>
+    <input type="text" name="captcha" id="captcha"><br>
+<button type="submit">submit</button></center>
+</form>
+</body>
+</html>
