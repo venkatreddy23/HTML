@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <style>
+        
+       #Application{
+        color: darkgrey;
+       }
+       .table{
+        
+        /* background-color: black; */
+       }
+       .div{
+        background-color:beige;
+       }
+       #first{
+        color: brown;
+       }
+       .dob{
+        background-color: darkkhaki;
+       }
+       #age{
+        background-color: cadetblue;
+       }
+       #gender{
+        background-color: bisque;
+       }
+       .gender{
+        color: chocolate;
+       }
+       #mail{
+        color:blueviolet
+       }
+       #positions{
+        background-color: rgb(141, 185, 57);
+       }
+       .langs{
+        color:coral;
+       }
+       .pass{
+        background-color: crimson;
+       }
+    </style>
+</head><center>
+<body>
+    <div class="div">
+    <table class="table">
+    <form action="" >
+    <center><legend><h1 id="Application">Application Form</h1></legend>
+    <tr>
+    <td><label for="First Name" id="first">First Name:</label></td> 
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>   
+    <td><input type="text" name="First Name" value="" required></td>  
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      
+    <td><label for="Last Name" id="first">Last Name:</label></td> 
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>   
+    <td><input type="text" name="Last Name" value=""></td>  
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+    <tr>
+    <td><label for="DOB" class="dob">Date Of Birth:</label></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+    <td><input type="date" name="DOB" placeholder="mm/dd/yyyy" required> </td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+ 
+    <td><label for="Age" id="age">Age</label></td> 
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+  
+    <td><input type="number" name="Age" required></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+    <td>
+        <label for="Gender" id="gender">Gender:</label>
+    </td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+    <td><label for="Male" class="gender">Male</label>
+    <input type="radio" name="Gender" value="Male" id="Male">
+    <label for="Female" class="gender">Female</label>
+    <input type="radio" name="Gender" value="Female" id="Female"></td>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+    <td><label for="email" id="mail">Email Address</label></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td><input type="email" name="email" id="email" required></td></tr></table><table>
+    <tr><td><label for="Positions Available:" id="positions">Positions Available:</label>
+        <td><input type="radio" name="Positions Available:">
+        <label for="junior Develepor">junior Develepor</label>
+         <input type="radio" name="Positions Available:">
+        <label for="mid-level Develepor">mid-level Develepor</label>
+        <input type="radio" name="Positions Available:">
+        <label for="senior Develepor">senior Develepor</label>
+    </td></tr>
+     <tr><td><label for="Programming Languages:" class="langs">Programming Languages:</label></td>
+        <td><input type="radio" name="Programming Languages:">
+        <label for="Python">Python</label>
+        <input type="radio" name="Programming Languages:">
+        <label for="JavaScript">JavaScript</label>
+        <input type="radio" name="Programming Languages:">
+        <label for="SQL">SQL</label>
+    </td></tr>
+    <tr>
+        <td><label for="Password" class="pass">Password</label>
+        <input type="password" name="Password" id="Password"></td>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <td>
+            <label for="Confirm Password" style="margin: 30px;" class="pass">Confirm Password</label>
+            <input type="password" name="Confirm Password" id="password">
+        </td>
+    </tr>
+    
+       
+    
+    </table>
+     <td><center><input type="submit" name="submit" value="Submit" style=" background-color: orangered; color: white;" ></td>
+    <input type="reset" name="reset" value="Reset" style=" background-color: orangered; color: white;"></center></td>
+</form></div>
+</body></center>
+</html>
